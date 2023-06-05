@@ -18,29 +18,36 @@
     <h2>Working with tables.</h2>
     <table border="3">
         <caption>Student's Information</caption>
-        <tr>
-            <th>Name</th>
-            <th>Year</th>
-            <th>Faculty</th>
-        </tr>
-        <tr>
-            <td>Kaushal</td>
-            <td>III</td>
-            <td>BCT</td>
-        </tr>
-        <tr>
-            <td>Ram</td>
-            <td colspan="2" style="text-align: center; font-size: 24px; font-weight: bold;">None</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Shyam</td>
-            <td>II</td>
-            <td>BCT</td>
-        </tr>
-        <tr>
-            <td>I</td>
-            <td>BCT</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Faculty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kaushal</td>
+                <td>III</td>
+                <td>BCT</td>
+            </tr>
+            <tr>
+                <td>Ram</td>
+                <td colspan="2" style="text-align: center; font-size: 24px; font-weight: bold;">None</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Shyam</td>
+                <td>II</td>
+                <td>BCT</td>
+            </tr>
+            <tr>
+                <td>I</td>
+                <td>BCT</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="3">And that's the table footer.</td>
+        </tfoot>
     </table>
     <hr>
     <article>
