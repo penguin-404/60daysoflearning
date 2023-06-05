@@ -5,9 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Articles</title>
+    <style>
+        table{
+            border: 2px solid #080808;
+            font-size: 22px;
+        }
+    </style>
 </head>
 <body>
     <h1>Working with articles element.</h1>
+    <hr>
+    <h2>Working with tables.</h2>
+    <table border="3">
+        <tr>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Faculty</th>
+        </tr>
+        <tr>
+            <td>Kaushal</td>
+            <td>III</td>
+            <td>BCT</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td colspan="2" style="text-align: center; font-size: 24px; font-weight: bold;">None</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Shyam</td>
+            <td>II</td>
+            <td>BCT</td>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>BCT</td>
+        </tr>
+    </table>
     <hr>
     <article>
         <h1>Coding and Coffee.</h1>
@@ -19,7 +52,7 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores dolorem ad, minima fugit consequuntur voluptate totam numquam? Repellat repudiandae enim inventore, obcaecati assumenda fuga eos quae expedita, culpa molestiae error.</p>
             <aside>
                 <details>
-                    <summary>How many hours do i code per day?</summary>
+                    <summary>How many  hours do i code per day?</summary>
                     <p>I code for 3 hours from 6PM in the evening.</p>
                 </details>
             </aside>
