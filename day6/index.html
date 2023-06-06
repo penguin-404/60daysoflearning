@@ -11,26 +11,69 @@
     <hr>
     <h2>Get Method.</h2>
     <form action="https://httpbin.org/get" method="get">
-        <p>
-        <label for="firstName">First Name:</label>
-        <input type="text" name="firstName" id="firstName" placeholder="John..." required autocomplete="on" autofocus>
-        </p>
-        <p>
-        <label for="lastName">Last Name:</label>
-        <input type="text" name="lastName" id="lastName" placeholder="Doe..." required autocomplete="on">
-        </p>
-        <p>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" required>
-        </p>
-        <p>
-            <label for="phone">Phone:</label>
-            <input type="tel" name="phone" id="phone" placeholder="+977-9000000000" pattern="[0-9]{3}-[0-9]{10}" required>
-        </p>
-        <p>
-            <label for="decade">Favourite Decade:</label>
-            <input type="number" name="decade" id="decade" min="1990" max="2020" step="10" value="2000">
-        </p>
+        <fieldset>
+            <legend>
+                Personal Info
+            </legend>
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="John..." required autocomplete="on" autofocus>
+                </p>
+                <p>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Doe..." required autocomplete="on">
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password" required>
+                </p>
+                <p>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone" placeholder="+977-9000000000" pattern="[0-9]{3}-[0-9]{10}" required>
+                </p>
+                <p>
+                    <label for="decade">Favourite Decade:</label>
+                    <input type="number" name="decade" id="decade" min="1990" max="2020" step="10" value="2000">
+                </p>
+                <p>
+                    <label for="coffee">Favourite Coffee:</label>
+                    <select name="coffee" id="coffee">
+                        <optgroup label="Coffees">
+                            <option value="regular coffee">Regular Coffee</option>
+                            <option value="iced coffee">Iced Coffee</option>
+                        </optgroup>
+                        <optgroup label="Espresso Drinks">
+                            <option value="latte">Latte</option>
+                            <option value="cappuccino">Cappuccino</option>
+                            <option value="cortado">Cortado</option>
+                            <option value="americano">Americano</option>
+                        </optgroup>
+                        <option value="other">Other</option>
+                    </select>
+                </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                What is your favourite food?
+            </legend>
+            <p>
+                <input type="radio" name="food" id="tacos" value="tacos">
+                <label for="tacos">Tacos</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="pizza" value="pizza">
+                <label for="pizza">Pizza</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="momo" value="momo">
+                <label for="momo">MoMo</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="other" value="other">
+                <label for="other">Other</label>
+            </p>
+        </fieldset>
     </form>
 </body>
 </html>
