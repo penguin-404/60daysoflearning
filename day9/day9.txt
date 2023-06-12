@@ -1,0 +1,3 @@
+-Learnt about various categories of CSS selectors.
+-Learnt about CSS background properties.
+-Learnt about CSS border properties.

@@ -1,0 +1,3 @@
+-Learnt about CSS colors properties.
+-Learnt about CSS Margin property.
+-Learnt about CSS padding property.

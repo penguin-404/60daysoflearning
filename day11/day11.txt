@@ -1,0 +1,2 @@
+-Learnt about CSS Height and Width properties.
+-Learnt about CSS Box Model.

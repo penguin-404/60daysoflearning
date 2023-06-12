@@ -1,0 +1,2 @@
+-Started with the basic stuffs of CSS.
+-Learnt few of the styling properties  today.
